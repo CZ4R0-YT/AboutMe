@@ -330,11 +330,7 @@ section .title::after {
 .services, .teams {
     color: #fff;
     background: #111;
-}
-
-.teams .title::after {
-    background: #111;
-}
+}w
 
 .container {
     display: flex;
@@ -755,12 +751,6 @@ section .title::after {
 
 .skills-content .right .py::before {
     width: 50%;
-}
-
-
-/* projects section styling */
-.teams .title::after {
-    content: "Skończone projekty";
 }
 
 .teams .carousel .card {
