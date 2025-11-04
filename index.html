@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+    <title>Portfolio</title>
+    <link rel="stylesheet"
+          href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css"
+          crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+<div id="preloader"></div>
+
+<nav class="navbar">
+    <div class="max-width">
+        <div class="logo"><a href="#">Czaro</a></div>
+        <ul class="menu">
+            <li><a href="#home">home</a></li>
+            <li><a href="#about">o mnie</a></li>
+            <li><a href="#skills">skillsy</a></li>
+            <li><a href="#teams">projekty</a></li>
+            <li><a href="#contact">kontakt</a></li>
+        </ul>
+        <div class="menu-btn">
+            <i class="fa-solid fa-bars"></i>
+        </div>
+    </div>
+</nav>
+
+<div class="scroll-up-btn">
+    <i class="fa-solid fa-angle-up"></i>
+</div>
+
+<section class="home" id="home">
+    <div class="max-width">
+        <div class="home-content">
+            <div class="text-1">Witaj! jestem</div>
+            <div class="text-2">Czaro</div>
+            <div class="text-3">Jestem <span class="typing"></span></div>
+        </div>
+    </div>
+</section>
+
+<section class="about" id="about">
+    <div class="max-width">
+        <h2 class="title">O mnie</h2>
+        <div class="about-content">
+            <div class="column left">
+                <img src="me.jpg" alt="ja">
+            </div>
+            <div class="column right">
+                <p>
+                    Jestem osobą, która bardzo lubi programować. Gdy miałem 9 lat, zacząłem programować
+                    w języku Batch, a inspiracją były te "wirusy" z youtube. Potem postanowiłem, że to nie
+                    jest w sumie przydatne mi, wiec zacząłem robić strony internetowe. Nauczyłem się z
+                    kilku tutorialów na youtube i z nauki lokalnie u mnie w mieście. Uczę się programowania
+                    w szkole Łosiem, którą zarządza pan Tomasz Ziomek. Potem zacząłem robić boty discord, ale
+                    nic wielkiego jeszcze nie zrobiłem.
+                </p>
+                <br/>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="skills" id="skills">
+    <div class="max-width">
+        <h2 class="title">Moje skillsy</h2>
+        <div class="skills-content">
+            <div class="column left">
+                <p>
+                    Powiedziałbym, że nie za dużo, ale mało to nie jest:
+                </p>
+                <ul style="margin-top: 15px;">
+                    <li>HTML, CSS, JS, Python</li>
+                    <li>Responsywność</li>
+                    <li>Animacje, estetyka</li>
+                </ul>
+            </div>
+
+            <div class="column right">
+                <div class="bars">
+                    <div class="info"><span>HTML</span><span>90%</span></div>
+                    <div class="line html"></div>
+                </div>
+                <div class="bars">
+                    <div class="info"><span>CSS</span><span>85%</span></div>
+                    <div class="line css"></div>
+                </div>
+                <div class="bars">
+                    <div class="info"><span>JavaScript</span><span>60%</span></div>
+                    <div class="line js"></div>
+                </div>
+                <div class="bars">
+                    <div class="info"><span>Python</span><span>50%</span></div>
+                    <div class="line py"></div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<section class="teams" id="teams">
+    <div class="max-width">
+        <h2 class="title">Moje projekty</h2>
+
+        <div class="swiper carousel">
+            <div class="swiper-wrapper">
+
+                <div class="swiper-slide card">
+                    <div class="box">
+                        <img src="" alt="">
+                        <div class="text">Homepage</div>
+                        <p></p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+
+    </div>
+</section>
+
+<section class="contact" id="contact">
+    <div class="max-width">
+        <h2 class="title">Kontakt</h2>
+        <div class="contact-content">
+            <p>Jakiś bot do zrobienia? strona?
+                Pisz → <b><a href="mailto:cz4r0@icloud.com?subject=Projekt&body=%2F%5C%0A%7C%0Azmie%C5%84%20tytu%C5%82%20na%20taki%20kt%C3%B3ry%20odpowiada%20twojemu%20projektowi">cz4r0@icloud.com</a></b>
+            </p>
+        </div>
+    </div>
+</section>
+
+<footer>
+    <span>© 2025 Czaro. All rights reserved.</span>
+</footer>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.11/typed.min.js"></script>
+<script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+<script src="script.js"></script>
+
+<script>
+    const loader = document.getElementById("preloader");
+    window.addEventListener("load", () => {
+        loader.style.display = "none";
+    });
+</script>
+
+</body>
+</html>
